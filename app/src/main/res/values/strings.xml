@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ProjectAplication</string>
+    <string-array name="spinnerSexItems">
+        <item>Мужской</item>
+        <item>НЕ мужской</item>
+    </string-array>
+
+    <string-array name="spinnerTextIsItems">
+        <item>Фраза</item>
+        <item>Слово</item>
+    </string-array>
+    <string-array name="spinnerGadalka">
+        <item>Рыбы</item>
+        <item>Водолей</item>
+        <item>Козерог</item>
+        <item>Стрелец</item>
+        <item>Змееносец</item>
+        <item>Скорпион</item>
+        <item>Весы</item>
+        <item>Дева</item>
+        <item>Лев</item>
+        <item>Рак</item>
+        <item>Близнецы</item>
+        <item>Телец</item>
+        <item>Овен</item>
+    </string-array>
+</resources>
