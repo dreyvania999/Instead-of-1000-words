@@ -8,20 +8,19 @@
 #Интерфейс программы:
 1. На главной странице отображены возможные сценарии работы.
 <p align="center">
-<img  src="https://downloader.disk.yandex.ru/preview/28f5c7eebccc198055547e11b2ccf41cf5ba3477e37cf72afd54a40f9ec294b3/63d54605/gB8kEJlveI6jITlFS9MeX_MD5tExjQz0Y_gHf4amgjxzsaA7KVNysX0Pg416Qm4eXFy1B_CTgilCAKLC1qBtBQ%3D%3D?uid=0&filename=IMG_20230128_145301.jpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=0&tknv=v2&size=2048x2048" width="30%">
+<img  src="https://4.downloader.disk.yandex.ru/preview/2f47cd50b36e28349dcdfdc0ffee7d94b15d7a6732a1eee692a0b91e6b097544/inf/0PnulOF8aYyJcxNDB41ExQv0A9kh_5Y1iMDo2JDZxLNIq1t64Ev65SzzQ9BC1bbt0dSkDlkVD4CDH084CMnv0w%3D%3D?uid=926101198&filename=%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_2023-02-06_141530612.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=926101198&tknv=v2&size=1851x932" width="30%">
 </p>
 2. Выбрав один из возможных сценариев пользователю необходимо нажать на соответствующую кнопку после чего он будет перемещен на страниццу.
 3. На странице комплимента есть возможность выбора пола и формы комплимента(будет это одно слово или целая фраза) для ввода текста.
 4. после выбора параметров генерации пользователь получает рандомно сгенерированное условие при которых можно сказать и слова которые можно сказать другому человеку.
+<p align="center">
+<img  src="https://3.downloader.disk.yandex.ru/preview/5587732f0d613c3b1e8587c7445102932191b3ec39475046257657fa27bf776f/inf/AO1To6v4Sb_VEfU_q2hyj8PenlPAzWEnLNinNBX9qb6Gt_ZInLqZdX9HOQaiuIqCiS-Z22TICkpH64UeD681kA%3D%3D?uid=926101198&filename=%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_2023-02-06_141457427.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=926101198&tknv=v2&size=1851x932" width="30%">
+</p>
 5. После получения комплимента можно повторно сгенерировать с теми же параметрами или изменив их получить комплимент для других условий
-
-6.
+6.При выборе 
 
 
 Для того чтобы начать использовать программу необходимо зарегистрироваться по ссылке:
-## Project setup
+## Установка проекта
 
-```
-npm install
-npm run serve
-```
+

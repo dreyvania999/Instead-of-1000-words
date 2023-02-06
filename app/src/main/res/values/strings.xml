@@ -1,5 +1,5 @@
 <resources >
-    <string name="app_name" color="@android:color/white">ProjectAplication</string>
+    <string name="app_name" color="@android:color/white">Вместо тысячи слов</string>
     <string-array name="spinnerSexItems">
         <item>Мужской</item>
         <item>Женский</item>

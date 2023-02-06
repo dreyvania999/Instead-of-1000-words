@@ -27,7 +27,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="32dp"
         android:onClick="onClick"
-        android:text="НЕ комплимент"
+        android:text="Оскорбление"
         android:background="@drawable/button"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
