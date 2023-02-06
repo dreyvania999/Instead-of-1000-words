@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Balaboba">
+    tools:context=".Balaboba"
+    android:background="@drawable/background">
 
     <ImageButton
         android:id="@+id/btnGoBackBalaboba"
@@ -21,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
-        android:text="Текст который сгенерирует ИИ"
+        android:text="Генерация текста от ИИ"
         app:layout_constraintBottom_toTopOf="@+id/btnGenerate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,13 +30,16 @@
 
     <Button
         android:id="@+id/btnGenerate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="152dp"
+        android:background="@drawable/button"
         android:onClick="onClick"
         android:text="Сгенерировать"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText

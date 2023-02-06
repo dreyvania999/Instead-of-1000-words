@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Desecration">
+    tools:context=".Desecration"
+    android:background="@drawable/background"
+    >
 
     <TextView
         android:id="@+id/textView"
@@ -20,10 +22,12 @@
 
     <Button
         android:id="@+id/btnGetNew"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
         android:onClick="onClick"
         android:text="Сгенерировать новое"
+        android:background="@drawable/button"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,9 +37,11 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="128dp"
         android:text="За выводимый текст отвечает Evil Insult Generator сторонее средство подключаемое без возможности предварительной фильтрации информации "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageButton

@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Compliment">
+    tools:context=".Compliment"
+    android:background="@drawable/background"
+    >
 
     <ImageButton
         android:id="@+id/btnGoBackCompliment"
@@ -20,19 +22,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="44dp"
         android:entries="@array/spinnerSexItems"
+
         app:layout_constraintBottom_toBottomOf="@+id/spinnerTextIs"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Spinner
         android:id="@+id/spinnerTextIs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="144dp"
         android:entries="@array/spinnerTextIsItems"
         app:layout_constraintEnd_toStartOf="@+id/spinnerSex"
+        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -62,13 +67,16 @@
 
     <Button
         android:id="@+id/btnGenerateNew"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="64dp"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/button"
         android:onClick="onClick"
         android:text="Новое хочу"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ProgressBar
